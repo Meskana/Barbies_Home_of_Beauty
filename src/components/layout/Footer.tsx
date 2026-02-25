@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white py-16 px-6">
+    <footer className="bg-black text-white py-12  px-6">
       <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-12">
         {/* Brand */}
         <div>
@@ -20,8 +20,8 @@ const Footer = () => {
         {/* Contact */}
         <div>
           <h4 className="text-lg font-semibold mb-4">Contact</h4>
-          <p className="text-gray-400 text-sm mb-2">Lagos, Nigeria</p>
-          <p className="text-gray-400 text-sm mb-2">+234 XXX XXX XXXX</p>
+          <p className="text-gray-400 text-sm mb-2">Enugu, Nigeria</p>
+          <p className="text-gray-400 text-sm mb-2">+234 816 894 5213</p>
           <p className="text-gray-400 text-sm">barbiesbeauty@gmail.com</p>
         </div>
 

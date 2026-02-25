@@ -23,7 +23,7 @@ const services = [
 
 const Services = () => {
   return (
-    <section className="py-2 px-6 bg-[#F8F4EC]">
+    <section className="py-2 pb-8 px-6 bg-[#F8F4EC]">
       <div className="max-w-6xl mx-auto text-center mb-16">
         <motion.h2
           initial={{ opacity: 0, y: 40 }}
