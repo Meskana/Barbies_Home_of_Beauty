@@ -64,7 +64,7 @@ const Navbar = () => {
                   <Link
                     to={link.path}
                     onClick={() => setOpen(false)}
-                    className="text-gray-800 font-medium"
+                    className="text-white font-medium"
                   >
                     {link.name}
                   </Link>

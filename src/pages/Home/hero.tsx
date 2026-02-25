@@ -6,7 +6,7 @@ const Hero = () => {
       <div
         className="absolute inset-0 bg-cover bg-center
         
-          md:bg-[url('images/barbies-desktop.png')] bg-[url('images/barbies-mobile.png')]"
+          md:bg-[url('/barbies-desktop.png')] bg-[url('/barbies-mobile.png')]"
       />
 
       {/* Dark Blur Overlay */}
