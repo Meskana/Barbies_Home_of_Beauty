@@ -36,8 +36,8 @@ export default function Testimonials() {
           transition={{ duration: 0.7 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold">
-            What Our Clients Say
+          <h2 className="text-3xl md:text-5xl font-light">
+            What <span className="text-[#B8860B]"> Our Clients Say</span>
           </h2>
           <p className="mt-3 text-lg text-black/70 max-w-2xl mx-auto">
             Real experiences from women who trust us with their beauty.
@@ -53,18 +53,7 @@ export default function Testimonials() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: index * 0.2 }}
-              className="bg-white rounded-2xl p-8 relative w-[300px] h-[340px] overflow-hidden"
-              style={{
-                clipPath: `path("M20 40 
-                    Q40 0 90 0 
-                    L220 0 
-                    Q260 0 280 40 
-                    L280 260 
-                    Q280 300 240 320 
-                    L60 320 
-                    Q20 300 20 260 
-                    Z")`,
-              }}
+              className="bg-white rounded-2xl border border-[#B8860B] p-8 relative w-[300px] h-[330px] overflow-hidden"
             >
               {/* Stars */}
               <div className="flex gap-1 text-[#D4AF37] mb-4">

@@ -37,7 +37,7 @@ export default function Services() {
             className="text-center mb-20"
           >
             <h2 className="text-4xl md:text-5xl font-light tracking-wide">
-              Our <span className="text-yellow-500">Premium Services</span>
+              Our <span className="text-[#B8860B]">Premium Services</span>
             </h2>
             <p className="mt-4 text-gray-400 max-w-2xl mx-auto">
               Experience luxury beauty crafted with precision, elegance, and a
@@ -66,8 +66,8 @@ export default function Services() {
                 </div>
 
                 {/* Card */}
-                <div className="bg-zinc-900 p-8 pt-32 rounded-3xl border border-zinc-800 hover:border-yellow-500 transition duration-500 text-center">
-                  <div className="flex justify-center mb-4 text-yellow-500">
+                <div className="bg-zinc-900 p-8 pt-32 rounded-3xl border border-zinc-800 hover:border-[#FFD700] transition duration-500 text-center">
+                  <div className="flex justify-center mb-4 text-[#FFD700]">
                     {service.icon}
                   </div>
 
@@ -79,7 +79,7 @@ export default function Services() {
                     {service.desc}
                   </p>
 
-                  <button className="mt-6 text-yellow-500 text-sm tracking-wider hover:underline">
+                  <button className="mt-6 text-[#FFD700] text-sm tracking-wider hover:underline">
                     Learn More →
                   </button>
                 </div>

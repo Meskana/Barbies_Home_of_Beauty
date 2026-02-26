@@ -21,7 +21,9 @@ export default function Contact() {
           transition={{ duration: 0.7 }}
           className="text-center mb-14"
         >
-          <h2 className="text-4xl md:text-5xl font-bold">Visit Our Studio</h2>
+          <h2 className="text-3xl md:text-5xl font-light">
+            Visit <span className="text-[#B8860B]"> Our Studio </span>
+          </h2>
 
           <p className="mt-3 text-lg text-black/70 max-w-2xl mx-auto">
             Experience luxury beauty in a space designed for elegance.
@@ -46,8 +48,8 @@ export default function Contact() {
                   <IoHome className="text-black text-xs sm:text-sm" />
                 </div>
 
-                <span className="font-medium">
-                  12 Admiralty Way, Lekki Phase 1, Lagos, Nigeria
+                <span className="font-sm">
+                  4B Ejindu street coal camp Enugu, Nigeria
                 </span>
               </div>
 
@@ -56,7 +58,7 @@ export default function Contact() {
                   <FaPhone className="text-black text-xs sm:text-sm" />
                 </div>
 
-                <span className="font-medium">+234 800 123 4567</span>
+                <span className="font-sm">+234 8168945213</span>
               </div>
 
               <div className="flex items-center gap-3 text-base sm:text-[17px] text-black/80">
@@ -64,7 +66,7 @@ export default function Contact() {
                   <TfiEmail className="text-black text-xs sm:text-sm" />
                 </div>
 
-                <span className="font-medium">hello@barbiesbeauty.com</span>
+                <span className="font-sm">hello@barbiesbeauty.com</span>
               </div>
 
               <div className="flex items-center gap-3 text-base sm:text-[17px] text-black/80">
@@ -72,7 +74,7 @@ export default function Contact() {
                   <TbClockHour3Filled className="text-black text-xs sm:text-sm" />
                 </div>
 
-                <span className="font-medium">
+                <span className="font-sm">
                   {" "}
                   Mon – Sat: 8:00 AM – 7:00 PM | Sunday: By Appointment
                 </span>

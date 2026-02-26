@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 const About = () => {
   return (
-    <section className="py-20 px-6 bg-[#F8F4EC]">
+    <section className="py-10 px-6 bg-[#F8F4EC]">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
         <motion.div
           initial={{ opacity: 0, x: -80 }}
@@ -35,9 +35,10 @@ const About = () => {
               visible: { opacity: 1, y: 0 },
             }}
             transition={{ duration: 0.8 }}
-            className="text-4xl font-bold mb-6 text-gray-800"
+            className="text-3xl font-light mb-6 text-gray-800"
           >
-            About Barbie’s Home of Beauty
+            About{" "}
+            <span className="text-[#B8860B]"> Barbie’s Home of Beauty</span>
           </motion.h2>
 
           <motion.p
@@ -54,7 +55,7 @@ const About = () => {
             installation — ensuring every client leaves confident and beautiful.
           </motion.p>
 
-          <motion.button
+          <motion.a
             variants={{
               hidden: { opacity: 0, y: 40 },
               visible: { opacity: 1, y: 0 },
@@ -62,10 +63,13 @@ const About = () => {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.97 }}
             transition={{ duration: 0.8 }}
-            className="px-8 py-3 bg-linear-to-r from-[#D4AF37] via-[#FFD700] to-[#B8860B] text-black font-semibold rounded-full hover:scale-105 transition-transform duration-300 shadow-lg"
+            href="https://wa.me/2348168945213?text=Hello%20I%20would%20like%20to%20book%20an%20appointment"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-8 py-3 bg-linear-to-r from-[#D4AF37] via-[#FFD700] to-[#B8860B] text-black font-semibold rounded-full hover:scale-105 transition-transform duration-300 shadow-lg inline-block"
           >
-            Reserve Appointment
-          </motion.button>
+            Book Appointment
+          </motion.a>
         </motion.div>
       </div>
     </section>

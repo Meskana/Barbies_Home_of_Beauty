@@ -30,9 +30,9 @@ const Services = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="text-4xl md:text-5xl font-bold"
+          className="text-3xl md:text-5xl font-light"
         >
-          Our Services
+          Our <span className="text-[#B8860B]">Services </span>
         </motion.h2>
       </div>
 
